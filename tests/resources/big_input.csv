@@ -1,0 +1,165 @@
+type, client, tx, amount
+deposit, 1, 1, 100.0
+deposit, 2, 2, 200.0
+deposit, 3, 3, 300.0
+deposit, 1, 4, 50.0
+withdrawal, 1, 5, 30.0
+withdrawal, 2, 6, 250.0
+withdrawal, 3, 7, 100.0
+deposit, 2, 8, 100.0
+deposit, 3, 9, 50.0
+deposit, 1, 10, 20.0
+dispute, 1, 1,
+dispute, 2, 2,
+dispute, 3, 3,
+resolve, 1, 1,
+resolve, 2, 2,
+chargeback, 3, 3,
+deposit, 4, 11, 400.0
+withdrawal, 4, 12, 100.0
+dispute, 4, 11,
+resolve, 4, 11,
+deposit, 5, 13, 500.0
+withdrawal, 5, 14, 100.0
+dispute, 5, 13,
+chargeback, 5, 13,
+deposit, 6, 15, 600.0
+withdrawal, 6, 16, 200.0
+dispute, 6, 15,
+resolve, 6, 15,
+deposit, 7, 17, 700.0
+withdrawal, 7, 18, 300.0
+dispute, 7, 17,
+chargeback, 7, 17,
+deposit, 8, 19, 800.0
+withdrawal, 8, 20, 400.0
+dispute, 8, 19,
+resolve, 8, 19,
+deposit, 9, 21, 900.0
+withdrawal, 9, 22, 500.0
+dispute, 9, 21,
+chargeback, 9, 21,
+deposit, 10, 23, 1000.0
+withdrawal, 10, 24, 600.0
+dispute, 10, 23,
+resolve, 10, 23,
+deposit, 1, 25, 10.0
+deposit, 2, 26, 20.0
+deposit, 3, 27, 30.0
+deposit, 4, 28, 40.0
+deposit, 5, 29, 50.0
+deposit, 6, 30, 60.0
+deposit, 7, 31, 70.0
+deposit, 8, 32, 80.0
+deposit, 9, 33, 90.0
+deposit, 10, 34, 100.0
+withdrawal, 1, 35, 5.0
+withdrawal, 2, 36, 10.0
+withdrawal, 3, 37, 15.0
+withdrawal, 4, 38, 20.0
+withdrawal, 5, 39, 25.0
+withdrawal, 6, 40, 30.0
+withdrawal, 7, 41, 35.0
+withdrawal, 8, 42, 40.0
+withdrawal, 9, 43, 45.0
+withdrawal, 10, 44, 50.0
+dispute, 1, 25,
+dispute, 2, 26,
+dispute, 3, 27,
+dispute, 4, 28,
+dispute, 5, 29,
+dispute, 6, 30,
+dispute, 7, 31,
+dispute, 8, 32,
+dispute, 9, 33,
+dispute, 10, 34,
+resolve, 1, 25,
+resolve, 2, 26,
+resolve, 3, 27,
+resolve, 4, 28,
+resolve, 5, 29,
+resolve, 6, 30,
+resolve, 7, 31,
+resolve, 8, 32,
+resolve, 9, 33,
+resolve, 10, 34,
+chargeback, 1, 25,
+chargeback, 2, 26,
+chargeback, 3, 27,
+chargeback, 4, 28,
+chargeback, 5, 29,
+chargeback, 6, 30,
+chargeback, 7, 31,
+chargeback, 8, 32,
+chargeback, 9, 33,
+chargeback, 10, 34,
+deposit, 1, 45, 1.0
+deposit, 2, 46, 2.0
+deposit, 3, 47, 3.0
+deposit, 4, 48, 4.0
+deposit, 5, 49, 5.0
+deposit, 6, 50, 6.0
+deposit, 7, 51, 7.0
+deposit, 8, 52, 8.0
+deposit, 9, 53, 9.0
+deposit, 10, 54, 10.0
+withdrawal, 1, 55, 0.5
+withdrawal, 2, 56, 1.0
+withdrawal, 3, 57, 1.5
+withdrawal, 4, 58, 2.0
+withdrawal, 5, 59, 2.5
+withdrawal, 6, 60, 3.0
+withdrawal, 7, 61, 3.5
+withdrawal, 8, 62, 4.0
+withdrawal, 9, 63, 4.5
+withdrawal, 10, 64, 5.0
+deposit, 1, 65, 0.1
+deposit, 2, 66, 0.2
+deposit, 3, 67, 0.3
+deposit, 4, 68, 0.4
+deposit, 5, 69, 0.5
+deposit, 6, 70, 0.6
+deposit, 7, 71, 0.7
+deposit, 8, 72, 0.8
+deposit, 9, 73, 0.9
+deposit, 10, 74, 1.0
+withdrawal, 1, 75, 0.05
+withdrawal, 2, 76, 0.10
+withdrawal, 3, 77, 0.15
+withdrawal, 4, 78, 0.20
+withdrawal, 5, 79, 0.25
+withdrawal, 6, 80, 0.30
+withdrawal, 7, 81, 0.35
+withdrawal, 8, 82, 0.40
+withdrawal, 9, 83, 0.45
+withdrawal, 10, 84, 0.50
+dispute, 1, 45,
+dispute, 2, 46,
+dispute, 3, 47,
+dispute, 4, 48,
+dispute, 5, 49,
+dispute, 6, 50,
+dispute, 7, 51,
+dispute, 8, 52,
+dispute, 9, 53,
+dispute, 10, 54,
+resolve, 1, 45,
+resolve, 2, 46,
+resolve, 3, 47,
+resolve, 4, 48,
+resolve, 5, 49,
+resolve, 6, 50,
+resolve, 7, 51,
+resolve, 8, 52,
+resolve, 9, 53,
+resolve, 10, 54,
+chargeback, 1, 45,
+chargeback, 2, 46,
+chargeback, 3, 47,
+chargeback, 4, 48,
+chargeback, 5, 49,
+chargeback, 6, 50,
+chargeback, 7, 51,
+chargeback, 8, 52,
+chargeback, 9, 53,
+chargeback, 10, 54,
